@@ -1,6 +1,6 @@
 // @desc Initialize & Globals
 randomize();
 
-global.gamePause = false;
+global.gamePaused = false;
 
 room_goto(ROOM_START);
