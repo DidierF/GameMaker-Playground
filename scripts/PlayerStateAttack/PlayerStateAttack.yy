@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"ScreenShake",
+  "%Name":"PlayerStateAttack",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"ScreenShake",
+  "name":"PlayerStateAttack",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"StateMachine",
+    "path":"folders/Scripts/StateMachine.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

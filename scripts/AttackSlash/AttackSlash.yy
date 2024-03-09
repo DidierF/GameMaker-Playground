@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"ScreenShake",
+  "%Name":"AttackSlash",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"ScreenShake",
+  "name":"AttackSlash",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

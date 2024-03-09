@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "PlayerStateFree",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+  "$GMScript":"",
+  "%Name":"PlayerStateFree",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PlayerStateFree",
+  "parent":{
+    "name":"StateMachine",
+    "path":"folders/Scripts/StateMachine.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
