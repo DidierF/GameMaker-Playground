@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"CalcAttack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CalcAttack",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
