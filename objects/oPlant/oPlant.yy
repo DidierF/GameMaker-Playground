@@ -1,10 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oSignpost",
+  "%Name":"oPlant",
   "eventList":[],
   "managed":true,
-  "name":"oSignpost",
-  "overriddenProperties":[],
+  "name":"oPlant",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityHitScript","path":"objects/pEntity/pEntity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"EntityHitDestroy",},
+  ],
   "parent":{
     "name":"Entities",
     "path":"folders/Objects/Entities.yy",
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSignpost",
-    "path":"sprites/sSignpost/sSignpost.yy",
+    "name":"sPlant",
+    "path":"sprites/sPlant/sPlant.yy",
   },
   "spriteMaskId":null,
   "visible":true,
