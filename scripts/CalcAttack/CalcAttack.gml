@@ -10,7 +10,7 @@ function CalcAttack(hitBox) {
 			if (ds_list_find_index(hitByAttack, hitID) == -1) {
 				ds_list_add(hitByAttack, hitID);
 				with(hitID) {
-					image_blend = c_red;
+					
 				}
 			}
 		}

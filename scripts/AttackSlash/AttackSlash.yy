@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"AttackSlash",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"PlayerAttack",
+    "path":"folders/Scripts/PlayerAttack.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
