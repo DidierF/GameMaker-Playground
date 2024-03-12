@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"CalcAttack",
+  "%Name":"PlayerAttackFunctions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"CalcAttack",
+  "name":"PlayerAttackFunctions",
   "parent":{
-    "name":"PlayerAttack",
-    "path":"folders/Scripts/PlayerAttack.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

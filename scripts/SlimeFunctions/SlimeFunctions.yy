@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"SlimeWander",
+  "%Name":"SlimeFunctions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SlimeWander",
+  "name":"SlimeFunctions",
   "parent":{
-    "name":"Slime",
-    "path":"folders/Scripts/Slime.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

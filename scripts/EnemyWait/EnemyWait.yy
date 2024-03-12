@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"SlimeChase",
+  "%Name":"EnemyWait",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SlimeChase",
+  "name":"EnemyWait",
   "parent":{
-    "name":"Slime",
-    "path":"folders/Scripts/Slime.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
