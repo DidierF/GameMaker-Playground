@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"SlimeWander",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SlimeWander",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
