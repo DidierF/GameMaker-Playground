@@ -15,3 +15,15 @@ spriteRoll = sPlayerRoll;
 spriteRun = sPlayerRun;
 spriteIdle = sPlayer;
 localFrame = 0;
+
+// Input
+keyLeft = false;
+keyRight = false;
+keyDown = false;
+keyUp = false;
+keyActivate = false;
+keyAttack = false;
+keyItem = false;
+
+inputDirection = point_direction(0, 0, 0, 0);
+inputMagnitude = false;
