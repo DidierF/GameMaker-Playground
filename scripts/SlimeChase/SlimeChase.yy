@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"SlimeWander",
+  "%Name":"SlimeChase",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SlimeWander",
+  "name":"SlimeChase",
   "parent":{
     "name":"Slime",
     "path":"folders/Scripts/Slime.yy",

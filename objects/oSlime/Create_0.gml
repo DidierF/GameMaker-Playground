@@ -9,4 +9,4 @@ state = ENEMYSTATE.WANDER;
 sprMove = sSlime;
 
 enemyScript[ENEMYSTATE.WANDER] = SlimeWander;
-collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
+enemyScript[ENEMYSTATE.CHASE] = SlimeChase;

@@ -1,4 +1,4 @@
-event_inherited()
+event_inherited();
 
 state = ENEMYSTATE.IDLE;
 hSpeed = 0;
@@ -9,6 +9,8 @@ dir = 0;
 timePassed = 0;
 waitDuration = 60;
 wait = 0;
+aggroCheck = 0;
+aggroCheckDuration = 5;
 
 // Enemy Sprites
 sprMove = sSlime;
