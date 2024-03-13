@@ -47,6 +47,7 @@
     {"name":"PlayerStateDead","order":4,"path":"scripts/PlayerStateDead/PlayerStateDead.yy",},
     {"name":"PlayerStateRoll","order":1,"path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},
     {"name":"ScreenShake","order":4,"path":"scripts/ScreenShake/ScreenShake.yy",},
+    {"name":"helpers","order":14,"path":"scripts/helpers/helpers.yy",},
     {"name":"ScriptExecuteArray","order":5,"path":"scripts/ScriptExecuteArray/ScriptExecuteArray.yy",},
     {"name":"SlimeFunctions","order":12,"path":"scripts/SlimeFunctions/SlimeFunctions.yy",},
     {"name":"shRedFlash","order":1,"path":"shaders/shRedFlash/shRedFlash.yy",},

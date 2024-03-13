@@ -25,3 +25,10 @@ for (var i = 1; i <= playerHealthMax; i++) {
 		image_alpha
 	);
 }
+
+var wWidth = window_get_width();
+var wHeight = window_get_height();
+
+var size = 32;
+DrawButton(wWidth - size - 8, wHeight - size - 8, size, size, ord("J"));
+DrawButton(wWidth - (size + 8) * 2, wHeight - (size + 8), size, size, ord("K"));
