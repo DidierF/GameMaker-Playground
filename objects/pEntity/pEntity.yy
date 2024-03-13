@@ -34,7 +34,7 @@
     {"$GMObjectProperty":"","%Name":"entityCollision","filters":[],"listItems":[],"multiselect":false,"name":"entityCollision","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
     {"$GMObjectProperty":"","%Name":"entityNPC","filters":[],"listItems":[],"multiselect":false,"name":"entityNPC","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
     {"$GMObjectProperty":"","%Name":"entityHitScript","filters":[],"listItems":[],"multiselect":false,"name":"entityHitScript","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":5,},
-    {"$GMObjectProperty":"","%Name":"sShadow","filters":[],"listItems":[],"multiselect":false,"name":"sShadow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
+    {"$GMObjectProperty":"","%Name":"entityShadow","filters":[],"listItems":[],"multiselect":false,"name":"entityShadow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

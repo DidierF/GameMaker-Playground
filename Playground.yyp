@@ -43,7 +43,6 @@
   },
   "name":"Playground",
   "resources":[
-    {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
     {"id":{"name":"oPlant","path":"objects/oPlant/oPlant.yy",},},
@@ -52,6 +51,7 @@
     {"id":{"name":"oRoomExit","path":"objects/oRoomExit/oRoomExit.yy",},},
     {"id":{"name":"oSignpost","path":"objects/oSignpost/oSignpost.yy",},},
     {"id":{"name":"oSlime","path":"objects/oSlime/oSlime.yy",},},
+    {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},},
     {"id":{"name":"oUI","path":"objects/oUI/oUI.yy",},},
     {"id":{"name":"pEnemy","path":"objects/pEnemy/pEnemy.yy",},},
     {"id":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},},
@@ -90,6 +90,7 @@
     {"id":{"name":"sPlayerHurt","path":"sprites/sPlayerHurt/sPlayerHurt.yy",},},
     {"id":{"name":"sPlayerRoll","path":"sprites/sPlayerRoll/sPlayerRoll.yy",},},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},},
+    {"id":{"name":"sShadow","path":"sprites/sShadow/sShadow.yy",},},
     {"id":{"name":"sSignpost","path":"sprites/sSignpost/sSignpost.yy",},},
     {"id":{"name":"sSlime","path":"sprites/sSlime/sSlime.yy",},},
     {"id":{"name":"sSlimeAttack","path":"sprites/sSlimeAttack/sSlimeAttack.yy",},},

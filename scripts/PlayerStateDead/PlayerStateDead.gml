@@ -24,6 +24,7 @@ function PlayerStateDead() {
 			image_index = image_number - 1;
 			global.targetX = -1;
 			global.targetY = -1;
+			game_restart()
 			//RoomTransition(TRANS_TYPE.SLIDE, rVillage);
 			
 		}

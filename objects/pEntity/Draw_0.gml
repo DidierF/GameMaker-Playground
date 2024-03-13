@@ -1,6 +1,6 @@
-//if (entityShadow) {
-//	draw_sprite(sShadow, 0, floor(x), floor(y));
-//}
+if (entityShadow) {
+	draw_sprite(sShadow, 0, floor(x), floor(y));
+}
 
 if (flash != 0) {
 	shader_set(shWhiteFlash);

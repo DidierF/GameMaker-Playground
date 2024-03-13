@@ -1,3 +1,5 @@
+draw_sprite(sShadow, 0, floor(x), floor(y));
+
 if ((invulnerable != 0) && (invulnerable mod 6 < 2 == 0) && (flash == 0)) {
 	// Skip draw
 } else {

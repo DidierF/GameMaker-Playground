@@ -1,4 +1,4 @@
-	function SlimeWander() {
+function SlimeWander() {
 	sprite_index = sprMove;
 	
 	// Alt destination or given up?
@@ -54,7 +54,7 @@
 function SlimeChase() {
 	sprite_index = sprMove;
 	// Attack range
-	var attackRange = 12;
+	var attackRange = 8;
 	if (instance_exists(target)) {
 		xTo = target.x;
 		yTo = target.y;
