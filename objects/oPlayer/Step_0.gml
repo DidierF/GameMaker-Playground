@@ -12,6 +12,8 @@ inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0);
 
 if (!global.gamePaused) {
 	script_execute(state);
+	invulnerable = max(invulnerable-1, 0);
+	flash = max(flash-0.05, 0);
 }
 
 depth = -bbox_bottom
