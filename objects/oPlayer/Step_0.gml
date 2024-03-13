@@ -10,6 +10,15 @@ keyItem = keyboard_check_pressed(vk_control) || keyboard_check(ord("N"));
 inputDirection = point_direction(0, 0, keyRight-keyLeft, keyDown-keyUp);
 inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0);
 
+if (oJoystick.touchId != -1) {
+	var joyX = oJoystick.joyX;
+	var joyY = oJoystick.joyY;
+	var rad = oJoystick.radius;
+	
+	inputDirection = point_direction(0, 0, joyX, joyY);
+	inputMagnitude = (joyX / rad) != 0 || (joyY / rad) != 0;
+}
+
 if (!global.gamePaused) {
 	script_execute(state);
 	invulnerable = max(invulnerable-1, 0);

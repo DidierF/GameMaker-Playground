@@ -6,7 +6,7 @@ function PlayerStateFree() {
 	PlayerCollision();
 
 	// Update Sprite Index
-	var _oldSprite = sprite_index;
+	var oldSprite = sprite_index;
 
 	if (inputMagnitude != 0) {
 		direction = inputDirection;
@@ -15,7 +15,7 @@ function PlayerStateFree() {
 		sprite_index = spriteIdle;
 	}
 
-	if (_oldSprite != sprite_index) {
+	if (oldSprite != sprite_index) {
 		localFrame = 0;
 	}
 
@@ -36,9 +36,9 @@ function PlayerStateFree() {
 
 function PlayerActivate() {
 
-	var _activateX = lengthdir_x(10, direction);
-	var _activateY = lengthdir_y(10, direction);
-	activate = instance_position(x+_activateX, y+_activateY, pEntity);
+	var activateX = lengthdir_x(10, direction);
+	var activateY = lengthdir_y(10, direction);
+	activate = instance_position(x+activateX, y+activateY, pEntity);
 		
 	// Roll if nothing to activate
 	if (activate == noone || activate.entityActivateScript == -1) {

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"ScreenShake",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"General",
+    "path":"folders/Scripts/General.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
