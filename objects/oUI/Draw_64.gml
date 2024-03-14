@@ -30,5 +30,5 @@ var wWidth = window_get_width();
 var wHeight = window_get_height();
 
 var size = 32;
-DrawButton(wWidth - size - 8, wHeight - size - 8, size, size, ord("J"));
-DrawButton(wWidth - (size + 8) * 2, wHeight - (size + 8), size, size, ord("K"));
+DrawButton(wWidth - size - 100, wHeight - size - 48, size, size, ord("J"));
+DrawButton(wWidth - size - 40, wHeight - size - 100, size, size, ord("K"));
