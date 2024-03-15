@@ -3,6 +3,8 @@ var playerHealthMax = global.playerHealthMax;
 var playerHealthFrac = frac(playerHealth);
 playerHealth -= playerHealthFrac;
 
+var scale = global.resWidth / global.camWidth;
+
 for (var i = 1; i <= playerHealthMax; i++) {
 	var imageIndex = i > playerHealth ? 1 : 0;
 
@@ -12,7 +14,6 @@ for (var i = 1; i <= playerHealthMax; i++) {
 		imageIndex += playerHealthFrac > 05 ? 1 : 0;
 	}
 
-	var scale = window_get_width() / 360;
 	draw_sprite_ext(
 		sHealth,
 		imageIndex,
@@ -26,8 +27,8 @@ for (var i = 1; i <= playerHealthMax; i++) {
 	);
 }
 
-var wWidth = window_get_width();
-var wHeight = window_get_height();
+var wWidth = global.camWidth * scale;
+var wHeight = global.camHeight * scale;
 
 var size = 32;
 DrawButton(wWidth - size - 100, wHeight - size - 48, size, size, ord("J"));
