@@ -1,4 +1,4 @@
-x1 = global.resWidth/2
+x1 = global.resWidth/2;
 y1 = global.resHeight-70;
 x2 = global.resWidth/2;
 y2 = global.resHeight;

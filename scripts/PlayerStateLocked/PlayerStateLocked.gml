@@ -1,0 +1,4 @@
+function PlayerStateLocked() {
+	// Do Nothing
+
+}
