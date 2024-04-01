@@ -7,7 +7,7 @@ draw_set_color(c_black);
 
 var print = string_copy(textMessage, 1, textProgress);
 
-if (responses[0] != -1 && (textProgress >= string_length(textMessage))) {
+if (array_length(responses) > 0 && responses[0] != -1 && (textProgress >= string_length(textMessage))) {
 	var resCount = array_length(responses);
 	for (var i = 0; i < resCount; i++) {
 		print += "\n";

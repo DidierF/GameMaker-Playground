@@ -19,6 +19,13 @@ if (responseSelected > maxRes) {
 if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) {
 	var messageLength = string_length(textMessage);
 	if (textProgress >= messageLength) {
+		
+		if (array_length(responses) > 0 && responses[0] != -1) {
+			with (originInstance) {
+				DialogResponses(other.responseScripts[other.responseSelected]);
+			}
+		}
+		
 		instance_destroy();
 		if (instance_exists(oTextQueued)) {
 			with (oTextQueued) {
