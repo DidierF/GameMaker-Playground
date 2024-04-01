@@ -4,7 +4,7 @@ textProgress += global.textSpeed;
 x1 = lerp(x1, x1Target, lerpProgress);
 x2 = lerp(x2, x2Target, lerpProgress);
 
-if (mouse_check_button_pressed(mb_left)) {
+if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) {
 	var messageLength = string_length(textMessage);
 	if (textProgress >= messageLength) {
 		instance_destroy();
