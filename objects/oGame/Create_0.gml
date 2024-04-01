@@ -5,13 +5,12 @@ global.gamePaused = false;
 global.playerHealthMax = 3;
 global.playerHealth = global.playerHealthMax;
 
+global.textSpeed = .75;
+
 global.iCamera = instance_create_layer(0, 0, layer, oCamera);
 global.iUI = instance_create_layer(0, 0, layer, oUI);
 
-var disW = display_get_width();
-var disH = display_get_height();
-
-global.ar = disW/disH;
+global.ar = 16/9;
 
 global.resWidth = 640;
 global.resHeight = global.resWidth / global.ar;

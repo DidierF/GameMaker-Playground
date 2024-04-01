@@ -24,6 +24,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"oText","order":5,"path":"objects/oText/oText.yy",},
     {"name":"oCamera","order":1,"path":"objects/oCamera/oCamera.yy",},
     {"name":"oJoystick","order":3,"path":"objects/oJoystick/oJoystick.yy",},
     {"name":"oMultiTouch","order":3,"path":"objects/oMultiTouch/oMultiTouch.yy",},
@@ -43,6 +44,7 @@
     {"name":"EntityHitSolid","order":1,"path":"scripts/EntityHitSolid/EntityHitSolid.yy",},
     {"name":"helpers","order":3,"path":"scripts/helpers/helpers.yy",},
     {"name":"HurtPlayer","order":3,"path":"scripts/HurtPlayer/HurtPlayer.yy",},
+    {"name":"NineSliceBoxStretched","order":4,"path":"scripts/NineSliceBoxStretched/NineSliceBoxStretched.yy",},
     {"name":"PlayerAnimateSprite","order":2,"path":"scripts/PlayerAnimateSprite/PlayerAnimateSprite.yy",},
     {"name":"PlayerCollision","order":1,"path":"scripts/PlayerCollision/PlayerCollision.yy",},
     {"name":"PlayerStateAttack","order":2,"path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},
@@ -71,6 +73,7 @@
     {"name":"sSlimeAttack","order":1,"path":"sprites/sSlimeAttack/sSlimeAttack.yy",},
     {"name":"sSlimeDie","order":2,"path":"sprites/sSlimeDie/sSlimeDie.yy",},
     {"name":"sSlimeHurt","order":3,"path":"sprites/sSlimeHurt/sSlimeHurt.yy",},
+    {"name":"sTextBoxBg","order":13,"path":"sprites/sTextBoxBg/sTextBoxBg.yy",},
     {"name":"sTiles","order":1,"path":"sprites/sTiles/sTiles.yy",},
     {"name":"TileSet3","order":2,"path":"tilesets/TileSet3/TileSet3.yy",},
     {"name":"tTiles","order":1,"path":"tilesets/tTiles/tTiles.yy",},
