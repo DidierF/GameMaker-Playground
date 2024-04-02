@@ -24,6 +24,10 @@ global.resHeight = global.resWidth / global.ar;
 global.camWidth = 320;
 global.camHeight = global.camWidth / global.ar;
 
+global.iLifted = noone;
+global.questStatus = ds_map_create();
+global.questStatus[? "theHatQuest"] = 0;
+
 
 window_set_size(global.resWidth, global.resHeight);
 surface_resize(application_surface, global.resWidth, global.resHeight);

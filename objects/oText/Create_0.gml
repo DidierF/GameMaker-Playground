@@ -9,7 +9,7 @@ x2Target = global.resWidth;
 lerpProgress = 0;
 textProgress = 0;
 
-background = 0;
+//background = 0;
 
 keyUp = 0;
 keyDown = 0;

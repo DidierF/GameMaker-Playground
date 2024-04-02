@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ActivateHatCat",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ActivateHatCat",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
