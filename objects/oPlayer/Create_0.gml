@@ -36,3 +36,9 @@ keyItem = false;
 
 inputDirection = point_direction(0, 0, 0, 0);
 inputMagnitude = false;
+
+if (global.targetX != -1) {
+	x = global.targetX;
+	y = global.targetY;
+	direction = global.targetDirection;
+}
