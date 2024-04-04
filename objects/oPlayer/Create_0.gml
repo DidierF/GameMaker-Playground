@@ -20,6 +20,8 @@ uFlash = 0;
 flashShader = shWhiteFlash;
 z = 0;
 
+animationEndScript = -1;
+
 spriteRoll = sPlayerRoll;
 spriteRun = sPlayerRun;
 spriteIdle = sPlayer;
